@@ -16,8 +16,6 @@ data_final = "12-31-2024"
 # Definindo URL de acesso à API do BACEN com variáveis de início e fim do período de cotação /// Defining access URL to BACEN's API with start and end time period variables.
 url = "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='"+data_inicial+"'&@dataFinalCotacao='"+data_final+"'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
 
-print(url)
-
 # Utilizando o método get da biblioteca requests, acessando a url resultante da API /// Using the get method from the requests library, acessing the resulting API url
 r = requests.get(url)
 
