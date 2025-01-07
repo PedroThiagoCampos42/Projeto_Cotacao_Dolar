@@ -8,7 +8,7 @@ Ferramentas e softwares utilizados:
 - Apache Hop *Extra* (Código aberto).
 
 # 1° Extração de dados da API do BACEN
-Seguindo o arquivo chamado "Extracao de dados para uma tabela". O arquivo python realiza a extração dos dados da API, e em seguida insere estes dados em uma tabela local do PostgreSQL.
+Seguindo o arquivo chamado [Extração_de_dados_para_uma_tabela](Extracao_de_dados_para_uma_tabela.py). O arquivo python realiza a extração dos dados da API, e em seguida insere estes dados em uma tabela local do PostgreSQL.
 
 ![Imagens](Imagens/Visualizacao_da_tabela-%20Table%20view.png)
 
@@ -17,6 +17,11 @@ Com os dados das cotações já colocados na tabela do banco, através do Metaba
 
 ![Imagens](Imagens/Visualizacao_do_grafico.png)
 ![Imagens](Imagens/Visualizacao_do_editor.png)
+
+# 3° Dashboard
+Por fim com a pergunta (question) montada no Metabase. É criada a visualização como dashboard, já incluindo a opção de filtragem por datas.
+
+![Imagens](Imagens/Visualizacao_do_dashboard.png)
 
 This project revolves in making an data extraction from the brazilian central bank (BACEN), about the variations of the US Dolar to the brazilian Real via Python and the pandas library. After that making a data visualizations using Metabase, an open-source application similar to Power BI.
 
