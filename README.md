@@ -1,4 +1,4 @@
-# Cotacao_Dolar
+# Cotação do Dólar para Real 2000 - 2024 /// Dolar cotation to Real 2000 - 2024
 Este projeto envolve montar uma extração de dados do Banco Central do Brasil (BACEN), sobre as variações do Dólar americano para o Real brasileiro utilizando Python e a biblioteca pandas. Depois montar uma visualização de dados utilizando o Metabase, um aplicativo de código aberto similar ao Power BI.
 
 Ferramentas e softwares utilizados:
